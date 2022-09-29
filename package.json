@@ -1,0 +1,35 @@
+{
+  "name": "liquid-ray",
+  "displayName": "Liquid Ray",
+  "description": "a unibody vscode theme ",
+  "version": "0.0.1",
+    "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "#23262E",
+        "theme": "dark"
+    },
+    "publisher": "wiidede",
+    "author": {
+        "name": "ELiver Lara",
+        "url": "https://github.com/wiidede",
+        "email": "wiixdede@gmail.com"
+    },
+    "repository": {
+        "url": "https://github.com/wiidede/Liquid-Ray"
+    },
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Liquid Ray",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Liquid Ray-color-theme.json"
+      }
+    ]
+  }
+}
