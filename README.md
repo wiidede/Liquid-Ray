@@ -1,7 +1,7 @@
 <h1 align="center">Liquid-Ray</h1>
 
 <div align="center">
-<img alt="logo" src="images/icon.svg">
+<img alt="logo" src="icon.png">
 </div>
 
 <h3 align="center">a unibody vscode theme</h3>
