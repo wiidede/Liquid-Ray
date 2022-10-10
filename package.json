@@ -5,7 +5,7 @@
   "version": "0.0.1",
     "icon": "images/icon.png",
     "galleryBanner": {
-        "color": "#23262E",
+        "color": "#252526",
         "theme": "dark"
     },
     "publisher": "wiidede",

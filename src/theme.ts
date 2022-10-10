@@ -81,7 +81,7 @@ export default function getTheme({ style, name, soft = false, black = false }) {
       'activityBar.background': background,
       'activityBarBadge.foreground': background,
       'activityBarBadge.background': foreground,
-      'activityBar.activeBorder': primary,
+      'activityBar.activeBorder': border,
       'activityBar.border': border,
 
       'sideBar.foreground': foreground,
