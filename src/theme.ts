@@ -93,7 +93,7 @@ export default function getTheme({ style, name, soft = false, black = false }) {
       'sideBarSectionHeader.border': border,
 
       'list.hoverForeground': activeForeground,
-      'list.inactiveSelectionForeground': primary,
+      'list.inactiveSelectionForeground': activeForeground,
       'list.activeSelectionForeground': primary,
       'list.hoverBackground': hoverBackground,
       'list.inactiveSelectionBackground': activeBackground,
@@ -129,7 +129,7 @@ export default function getTheme({ style, name, soft = false, black = false }) {
       'editorGroupHeader.tabsBorder': border,
       'editorGroup.border': border,
 
-      'tab.activeForeground': foreground,
+      'tab.activeForeground': activeForeground,
       'tab.inactiveForeground': primer.gray[5],
       'tab.inactiveBackground': background,
       'tab.activeBackground': activeBackground,
@@ -177,8 +177,8 @@ export default function getTheme({ style, name, soft = false, black = false }) {
 
       'panel.background': background,
       'panel.border': border,
-      'panelTitle.activeBorder': primary,
-      'panelTitle.activeForeground': foreground,
+      'panelTitle.activeBorder': border,
+      'panelTitle.activeForeground': activeForeground,
       'panelTitle.inactiveForeground': primer.gray[5],
       'panelInput.border': pick({ light: primer.gray[2], dark: primer.gray[1] }),
 
