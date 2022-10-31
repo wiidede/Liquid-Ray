@@ -93,7 +93,7 @@ export default function getTheme({ style, name, soft = false, black = false }) {
       'sideBarSectionHeader.border': border,
 
       'list.hoverForeground': activeForeground,
-      'list.inactiveSelectionForeground': activeForeground,
+      'list.inactiveSelectionForeground': primary,
       'list.activeSelectionForeground': primary,
       'list.hoverBackground': hoverBackground,
       'list.inactiveSelectionBackground': activeBackground,
@@ -129,7 +129,7 @@ export default function getTheme({ style, name, soft = false, black = false }) {
       'editorGroupHeader.tabsBorder': border,
       'editorGroup.border': border,
 
-      'tab.activeForeground': activeForeground,
+      'tab.activeForeground': primary,
       'tab.inactiveForeground': primer.gray[5],
       'tab.inactiveBackground': background,
       'tab.activeBackground': activeBackground,
@@ -157,17 +157,17 @@ export default function getTheme({ style, name, soft = false, black = false }) {
       'editorWhitespace.foreground': pick({ light: '#00000015', dark: '#ffffff15' }),
       'editorCursor.foreground': primary,
 
-      'editor.findMatchBackground': pick({ light: '#e6cc7744', dark: '#e6cc7722' }),
-      'editor.findMatchHighlightBackground': pick({ light: '#e6cc7766', dark: '#e6cc7744' }),
+      'editor.findMatchBackground': `${primary}80`, // pick({ light: '#e6cc7744', dark: '#e6cc7722' }),
+      'editor.findMatchHighlightBackground': `${primary}60`, // pick({ light: '#e6cc7766', dark: '#e6cc7744' }),
       'editor.inactiveSelectionBackground': selectionBackgroundInActive,
       'editor.selectionBackground': selectionBackground,
       'editor.selectionHighlightBackground': selectionBackgroundInActive,
-      'editor.wordHighlightBackground': pick({ light: '#1c6b4805', dark: '#1c6b4805' }),
-      'editor.wordHighlightStrongBackground': pick({ light: '#1c6b4810', dark: '#1c6b4810' }),
-      'editorBracketMatch.background': pick({ light: '#1c6b4820', dark: '#4d937520' }),
+      'editor.wordHighlightBackground': `${primary}30`, // pick({ light: '#1c6b4805', dark: '#1c6b4805' }),
+      'editor.wordHighlightStrongBackground': `${primary}30`, // pick({ light: '#1c6b4810', dark: '#1c6b4810' }),
+      // 'editorBracketMatch.background': pick({ light: '#1c6b4820', dark: '#4d937520' }),
 
-      'diffEditor.insertedTextBackground': pick({ light: '#1c6b4815', dark: '#4d937522' }),
-      'diffEditor.removedTextBackground': pick({ light: '#ab595910', dark: '#ab595922' }),
+      'diffEditor.insertedTextBackground': `${themeColor('green')}40`, // pick({ light: '#1c6b4815', dark: '#4d937522' }),
+      'diffEditor.removedTextBackground': `${themeColor('red')}40`, // pick({ light: '#ab595910', dark: '#ab595922' }),
 
       'scrollbar.shadow': themeColor('background'),
       'scrollbarSlider.background': themeColor('faded'),
@@ -178,7 +178,7 @@ export default function getTheme({ style, name, soft = false, black = false }) {
       'panel.background': background,
       'panel.border': border,
       'panelTitle.activeBorder': border,
-      'panelTitle.activeForeground': activeForeground,
+      'panelTitle.activeForeground': primary,
       'panelTitle.inactiveForeground': primer.gray[5],
       'panelInput.border': pick({ light: primer.gray[2], dark: primer.gray[1] }),
 
@@ -209,7 +209,7 @@ export default function getTheme({ style, name, soft = false, black = false }) {
       'gitDecoration.conflictingResourceForeground': themeColor('orange'),
       'gitDecoration.submoduleResourceForeground': themeColor('secondaryForeground'),
 
-      'editorGutter.modifiedBackground': themeColor('blue'),
+      'editorGutter.modifiedBackground': themeColor('purple'),
       'editorGutter.addedBackground': themeColor('green'),
       'editorGutter.deletedBackground': themeColor('red'),
 
@@ -223,11 +223,11 @@ export default function getTheme({ style, name, soft = false, black = false }) {
       'editorBracketHighlight.foreground8': ThemesColors.colorful[7],
 
       'debugToolBar.background': background,
-      'editor.stackFrameHighlightBackground': pick({ light: primer.yellow[1], dark: '#a707' }),
-      'editor.focusedStackFrameHighlightBackground': pick({ light: primer.yellow[2], dark: '#b808' }),
+      'editor.stackFrameHighlightBackground': `${primary}80`, // pick({ light: primer.yellow[1], dark: '#a707' }),
+      'editor.focusedStackFrameHighlightBackground': `${primary}80`, // pick({ light: primer.yellow[2], dark: '#b808' }),
 
-      'peekViewEditor.matchHighlightBackground': pick({ dark: '#ffd33d33' }),
-      'peekViewResult.matchHighlightBackground': pick({ dark: '#ffd33d33' }),
+      'peekViewEditor.matchHighlightBackground': `${primary}80`,
+      'peekViewResult.matchHighlightBackground': `${primary}80`,
       'peekViewEditor.background': background,
       'peekViewResult.background': background,
 

@@ -13,7 +13,7 @@ export const colors = {
 
 // [dark, light]
 export const ThemesColors = {
-  primary: ['#00AFDB', '#00AFDB'],
+  primary: ['#775FC0', '#856ACE'],
 
   foreground: ['#ACA79F', '#393a34'],
   activeForeground: ['#BCB7B2', '#4e4f47'],
@@ -57,6 +57,7 @@ export const ThemesColors = {
   orange: ['#FFAA4D', '#FFAA52'],
   yellow: ['#FFE900', '#FFE916'],
   magenta: ['#EA27C2', '#E838BF'],
+  purple: ['#775FC0', '#856ACE'],
 
   colorful: ['#775FC0', '#71D34C', '#FBEA4E', '#F3AE5F', '#EE7A7A', '#EB50B1', '#52B498', '#4498C9'],
 }
