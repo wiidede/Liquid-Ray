@@ -20,11 +20,14 @@ export default function getTheme({ style, name, soft = false, black = false }) {
   const secondaryForeground = themeColor('secondaryForeground')
   const activeForeground = themeColor('activeForeground')
   const primary = themeColor('primary')
+  const primaryLight = themeColor('primaryLight')
 
   const border = soft ? themeColor('lowBorder') : themeColor('border')
   const background = black ? '#000' : soft ? themeColor('lowBackground') : themeColor('background')
-  const hoverBackground = black ? '#050505' : soft ? themeColor('hoverBackground') : themeColor('hoverBackground')
+  const hoverBackground = black ? '#090909' : soft ? themeColor('hoverBackground') : themeColor('hoverBackground')
   const activeBackground = black ? '#050505' : soft ? themeColor('lowActiveBackground') : themeColor('activeBackground')
+  const focusBackground = black ? '#010101' : soft ? themeColor('focusBackground') : themeColor('focusBackground')
+  const deepBackground = black ? '#000000' : soft ? themeColor('deepBackground') : themeColor('deepBackground')
 
   const selectionBackgroundInActive = pick({ light: '#22222208', dark: '#eeeeee08' })
   const selectionBackgroundActive = pick({ light: '#22222215', dark: '#eeeeee15' })
@@ -147,7 +150,13 @@ export default function getTheme({ style, name, soft = false, black = false }) {
 
       'editor.foreground': foreground,
       'editor.background': background,
-      'editorWidget.background': background,
+      'editorWidget.background': focusBackground,
+      'editorWidget.border': border,
+      'editorSuggestWidget.foreground': foreground,
+      'editorSuggestWidget.focusHighlightForeground': primary,
+      'editorSuggestWidget.highlightForeground': `${primary}F0`,
+      'editorSuggestWidget.selectedBackground': deepBackground,
+      'editorSuggestWidget.selectedForeground': primaryLight,
       'editor.foldBackground': pick({ light: '#22222210', dark: '#eeeeee10' }),
       'editor.lineHighlightBackground': activeBackground,
       'editorLineNumber.foreground': themeColor('ignored'),

@@ -13,7 +13,8 @@ export const colors = {
 
 // [dark, light]
 export const ThemesColors = {
-  primary: ['#775FC0', '#856ACE'],
+  primary: ['#997ADB', '#9D86DE'],
+  primaryLight: ['#C0AEE7', '#C6B5ED'],
 
   foreground: ['#ACA79F', '#393a34'],
   activeForeground: ['#BCB7B2', '#4e4f47'],
@@ -25,6 +26,8 @@ export const ThemesColors = {
   background: ['#252526', '#ffffff'],
   hoverBackground: ['#29292A', '#ffffff'],
   activeBackground: ['#202021', '#f5f5f5'],
+  focusBackground: ['#19191A', '#f0f0f0'],
+  deepBackground: ['#101011', '#eaeaea'],
 
   lowBackground: ['#222', '#F1F0E9'],
   lowActiveBackground: ['#292929', '#E7E5DB'],
