@@ -62,5 +62,5 @@ export const ThemesColors = {
   magenta: ['#EA27C2', '#E838BF'],
   purple: ['#775FC0', '#856ACE'],
 
-  colorful: ['#775FC0', '#71D34C', '#FBEA4E', '#F3AE5F', '#EE7A7A', '#EB50B1', '#52B498', '#4498C9'],
+  colorful: ['#775FC0', '#71D34C', '#FBEA4E', '#009ACE', '#EE7A7A', '#EB50B1', '#52B498', '#F3AE5F'],
 }
