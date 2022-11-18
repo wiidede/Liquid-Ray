@@ -62,7 +62,7 @@ export default function getTheme({ style, name, soft = false, black = false }) {
       'dropdown.foreground': foreground,
       'dropdown.listBackground': activeBackground,
 
-      'input.background': activeBackground,
+      'input.background': focusBackground,
       'input.border': border,
       'input.foreground': foreground,
       'input.placeholderForeground': secondaryForeground,
@@ -95,6 +95,12 @@ export default function getTheme({ style, name, soft = false, black = false }) {
       'sideBarSectionHeader.background': background,
       'sideBarSectionHeader.border': border,
 
+      'menu.background': focusBackground,
+      'menu.selectionBackground': deepBackground,
+
+      'commandCenter.border': border,
+      'commandCenter.inactiveBorder': border,
+
       'list.hoverForeground': activeForeground,
       'list.inactiveSelectionForeground': primary,
       'list.activeSelectionForeground': primary,
@@ -103,6 +109,7 @@ export default function getTheme({ style, name, soft = false, black = false }) {
       'list.activeSelectionBackground': activeBackground,
       'list.inactiveFocusBackground': background,
       'list.focusBackground': activeBackground,
+      'list.highlightForeground': primary,
 
       'tree.indentGuidesStroke': pick({ light: primer.gray[2], dark: primer.gray[1] }),
 
@@ -115,10 +122,12 @@ export default function getTheme({ style, name, soft = false, black = false }) {
       'notificationsWarningIcon.foreground': themeColor('orange'),
       'notificationsInfoIcon.foreground': themeColor('blue'),
 
-      'pickerGroup.border': primer.gray[2],
+      'pickerGroup.border': border,
       'pickerGroup.foreground': foreground,
-      'quickInput.background': background,
+      'quickInput.background': focusBackground,
       'quickInput.foreground': foreground,
+      'quickInputList.focusBackground': deepBackground,
+      'quickInputList.focusForeground': primary,
 
       'statusBar.foreground': activeForeground,
       'statusBar.background': background,
