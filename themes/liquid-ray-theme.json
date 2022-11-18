@@ -22,7 +22,7 @@
     "dropdown.border": "#252526",
     "dropdown.foreground": "#ACA79F",
     "dropdown.listBackground": "#202021",
-    "input.background": "#202021",
+    "input.background": "#19191A",
     "input.border": "#252526",
     "input.foreground": "#ACA79F",
     "input.placeholderForeground": "#E4E2DC80",
@@ -49,6 +49,10 @@
     "sideBarSectionHeader.foreground": "#ACA79F",
     "sideBarSectionHeader.background": "#252526",
     "sideBarSectionHeader.border": "#252526",
+    "menu.background": "#19191A",
+    "menu.selectionBackground": "#101011",
+    "commandCenter.border": "#252526",
+    "commandCenter.inactiveBorder": "#252526",
     "list.hoverForeground": "#BCB7B2",
     "list.inactiveSelectionForeground": "#997ADB",
     "list.activeSelectionForeground": "#997ADB",
@@ -57,6 +61,7 @@
     "list.activeSelectionBackground": "#202021",
     "list.inactiveFocusBackground": "#252526",
     "list.focusBackground": "#202021",
+    "list.highlightForeground": "#997ADB",
     "tree.indentGuidesStroke": "#3d2f2f",
     "notificationCenterHeader.foreground": "#a5a595",
     "notificationCenterHeader.background": "#252526",
@@ -66,10 +71,12 @@
     "notificationsErrorIcon.foreground": "#FF7276",
     "notificationsWarningIcon.foreground": "#FFAA4D",
     "notificationsInfoIcon.foreground": "#009ACE",
-    "pickerGroup.border": "#564444",
+    "pickerGroup.border": "#252526",
     "pickerGroup.foreground": "#ACA79F",
-    "quickInput.background": "#252526",
+    "quickInput.background": "#19191A",
     "quickInput.foreground": "#ACA79F",
+    "quickInputList.focusBackground": "#101011",
+    "quickInputList.focusForeground": "#997ADB",
     "statusBar.foreground": "#BCB7B2",
     "statusBar.background": "#252526",
     "statusBar.border": "#252526",
@@ -264,7 +271,7 @@
         "tag.html"
       ],
       "settings": {
-        "foreground": "#FFCD8A"
+        "foreground": "#78E6D0"
       }
     },
     {
@@ -279,7 +286,7 @@
         "storage.type.class.jsdoc"
       ],
       "settings": {
-        "foreground": "#FFCD8A"
+        "foreground": "#78E6D0"
       }
     },
     {
@@ -311,7 +318,7 @@
         "attribute.value"
       ],
       "settings": {
-        "foreground": "#FFB098"
+        "foreground": "#F1F0B0"
       }
     },
     {
@@ -320,7 +327,7 @@
         "punctuation.support.type.property-name"
       ],
       "settings": {
-        "foreground": "#FFB098aa"
+        "foreground": "#F1F0B0aa"
       }
     },
     {
@@ -435,7 +442,7 @@
     {
       "scope": "string variable",
       "settings": {
-        "foreground": "#FFB098"
+        "foreground": "#F1F0B0"
       }
     },
     {
@@ -455,7 +462,7 @@
         "string.regexp string.regexp.arbitrary-repitition"
       ],
       "settings": {
-        "foreground": "#FFB098"
+        "foreground": "#F1F0B0"
       }
     },
     {
@@ -478,7 +485,7 @@
         "number"
       ],
       "settings": {
-        "foreground": "#FFF791"
+        "foreground": "#FFAD93"
       }
     },
     {
@@ -495,7 +502,7 @@
         "constant.language"
       ],
       "settings": {
-        "foreground": "#FFF4B0"
+        "foreground": "#FFBBA4"
       }
     },
     {
@@ -641,7 +648,7 @@
         "punctuation.definition.string.end.markdown"
       ],
       "settings": {
-        "foreground": "#FFB098"
+        "foreground": "#F1F0B0"
       }
     },
     {
@@ -785,11 +792,11 @@
     },
     {
       "token": "entity.name.tag",
-      "foreground": "FFCD8A"
+      "foreground": "78E6D0"
     },
     {
       "token": "tag.html",
-      "foreground": "FFCD8A"
+      "foreground": "78E6D0"
     },
     {
       "token": "entity.name.function",
@@ -797,11 +804,11 @@
     },
     {
       "token": "keyword",
-      "foreground": "FFCD8A"
+      "foreground": "78E6D0"
     },
     {
       "token": "storage.type.class.jsdoc",
-      "foreground": "FFCD8A"
+      "foreground": "78E6D0"
     },
     {
       "token": "storage",
@@ -837,23 +844,23 @@
     },
     {
       "token": "string",
-      "foreground": "FFB098"
+      "foreground": "F1F0B0"
     },
     {
       "token": "string punctuation.section.embedded source",
-      "foreground": "FFB098"
+      "foreground": "F1F0B0"
     },
     {
       "token": "attribute.value",
-      "foreground": "FFB098"
+      "foreground": "F1F0B0"
     },
     {
       "token": "punctuation.definition.string",
-      "foreground": "FFB098aa"
+      "foreground": "F1F0B0aa"
     },
     {
       "token": "punctuation.support.type.property-name",
-      "foreground": "FFB098aa"
+      "foreground": "F1F0B0aa"
     },
     {
       "token": "support",
@@ -945,7 +952,7 @@
     },
     {
       "token": "string variable",
-      "foreground": "FFB098"
+      "foreground": "F1F0B0"
     },
     {
       "token": "source.regexp",
@@ -957,19 +964,19 @@
     },
     {
       "token": "string.regexp.character-class",
-      "foreground": "FFB098"
+      "foreground": "F1F0B0"
     },
     {
       "token": "string.regexp constant.character.escape",
-      "foreground": "FFB098"
+      "foreground": "F1F0B0"
     },
     {
       "token": "string.regexp source.ruby.embedded",
-      "foreground": "FFB098"
+      "foreground": "F1F0B0"
     },
     {
       "token": "string.regexp string.regexp.arbitrary-repitition",
-      "foreground": "FFB098"
+      "foreground": "F1F0B0"
     },
     {
       "token": "string.regexp constant.character.escape",
@@ -981,11 +988,11 @@
     },
     {
       "token": "constant.numeric",
-      "foreground": "FFF791"
+      "foreground": "FFAD93"
     },
     {
       "token": "number",
-      "foreground": "FFF791"
+      "foreground": "FFAD93"
     },
     {
       "token": "keyword.other.unit",
@@ -993,11 +1000,11 @@
     },
     {
       "token": "constant.language.boolean",
-      "foreground": "FFF4B0"
+      "foreground": "FFBBA4"
     },
     {
       "token": "constant.language",
-      "foreground": "FFF4B0"
+      "foreground": "FFBBA4"
     },
     {
       "token": "meta.module-reference",
@@ -1117,19 +1124,19 @@
     },
     {
       "token": "constant.other.reference.link",
-      "foreground": "FFB098"
+      "foreground": "F1F0B0"
     },
     {
       "token": "string.other.link",
-      "foreground": "FFB098"
+      "foreground": "F1F0B0"
     },
     {
       "token": "punctuation.definition.string.begin.markdown",
-      "foreground": "FFB098"
+      "foreground": "F1F0B0"
     },
     {
       "token": "punctuation.definition.string.end.markdown",
-      "foreground": "FFB098"
+      "foreground": "F1F0B0"
     },
     {
       "token": "markup.underline.link.markdown",
