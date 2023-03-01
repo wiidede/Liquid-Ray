@@ -271,6 +271,9 @@ export default function getTheme({ style, name, soft = false, black = false }) {
 
       'editorInlayHint.foreground': themeColor('punctuation'),
       'editorInlayHint.background': '#00000000',
+
+      'statusBarItem.remoteBackground': background,
+      'statusBarItem.remoteForeground': activeForeground,
     },
     semanticHighlighting: true,
     semanticTokenColors: {

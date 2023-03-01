@@ -198,7 +198,9 @@
     "editorGutter.commentRangeForeground": "#E4E2DC30",
     "editorGutter.foldingControlForeground": "#E4E2DC80",
     "editorInlayHint.foreground": "#C4D5C6",
-    "editorInlayHint.background": "#00000000"
+    "editorInlayHint.background": "#00000000",
+    "statusBarItem.remoteBackground": "#252526",
+    "statusBarItem.remoteForeground": "#BCB7B2"
   },
   "semanticHighlighting": true,
   "semanticTokenColors": {
