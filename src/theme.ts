@@ -99,7 +99,10 @@ export default function getTheme({ style, name, soft = false, black = false }) {
       'menu.selectionBackground': deepBackground,
 
       'commandCenter.border': border,
+      'commandCenter.activeBorder': border,
       'commandCenter.inactiveBorder': border,
+      'commandCenter.background': background,
+      'commandCenter.activeBackground': activeBackground,
 
       'list.hoverForeground': activeForeground,
       'list.inactiveSelectionForeground': primary,
