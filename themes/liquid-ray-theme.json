@@ -200,7 +200,9 @@
     "editorInlayHint.foreground": "#C4D5C6",
     "editorInlayHint.background": "#00000000",
     "statusBarItem.remoteBackground": "#252526",
-    "statusBarItem.remoteForeground": "#BCB7B2"
+    "statusBarItem.remoteForeground": "#BCB7B2",
+    "editorStickyScroll.background": "#202021",
+    "editorStickyScrollHover.background": "#29292A"
   },
   "semanticHighlighting": true,
   "semanticTokenColors": {

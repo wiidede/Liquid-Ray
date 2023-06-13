@@ -274,6 +274,9 @@ export default function getTheme({ style, name, soft = false, black = false }) {
 
       'statusBarItem.remoteBackground': background,
       'statusBarItem.remoteForeground': activeForeground,
+
+      'editorStickyScroll.background': activeBackground,
+      'editorStickyScrollHover.background': hoverBackground,
     },
     semanticHighlighting: true,
     semanticTokenColors: {
