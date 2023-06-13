@@ -33,6 +33,8 @@ export default function getTheme({ style, name, soft = false, black = false }) {
   const selectionBackgroundActive = pick({ light: '#22222215', dark: '#eeeeee15' })
   const selectionBackground = pick({ light: '#22222215', dark: '#eeeeee15' })
 
+  const colorful = pick({ light: ThemesColors.colorfulLight, dark: ThemesColors.colorful })
+
   const theme = {
     name,
     base: pick({ light: 'vs', dark: 'vs-dark' }),
@@ -234,14 +236,14 @@ export default function getTheme({ style, name, soft = false, black = false }) {
       'editorGutter.addedBackground': themeColor('green'),
       'editorGutter.deletedBackground': themeColor('red'),
 
-      'editorBracketHighlight.foreground1': ThemesColors.colorful[0],
-      'editorBracketHighlight.foreground2': ThemesColors.colorful[1],
-      'editorBracketHighlight.foreground3': ThemesColors.colorful[2],
-      'editorBracketHighlight.foreground4': ThemesColors.colorful[3],
-      'editorBracketHighlight.foreground5': ThemesColors.colorful[4],
-      'editorBracketHighlight.foreground6': ThemesColors.colorful[5],
-      'editorBracketHighlight.foreground7': ThemesColors.colorful[6],
-      'editorBracketHighlight.foreground8': ThemesColors.colorful[7],
+      'editorBracketHighlight.foreground1': colorful[0],
+      'editorBracketHighlight.foreground2': colorful[1],
+      'editorBracketHighlight.foreground3': colorful[2],
+      'editorBracketHighlight.foreground4': colorful[3],
+      'editorBracketHighlight.foreground5': colorful[4],
+      'editorBracketHighlight.foreground6': colorful[5],
+      'editorBracketHighlight.foreground7': colorful[6],
+      'editorBracketHighlight.foreground8': colorful[7],
 
       'debugToolBar.background': background,
       'editor.stackFrameHighlightBackground': `${primary}80`, // pick({ light: primer.yellow[1], dark: '#a707' }),
@@ -275,8 +277,8 @@ export default function getTheme({ style, name, soft = false, black = false }) {
       'statusBarItem.remoteBackground': background,
       'statusBarItem.remoteForeground': activeForeground,
 
-      'editorStickyScroll.background': activeBackground,
-      'editorStickyScrollHover.background': hoverBackground,
+      'editorStickyScroll.background': pick({ light: hoverBackground, dark: activeBackground }),
+      'editorStickyScrollHover.background': pick({ light: activeBackground, dark: hoverBackground }),
     },
     semanticHighlighting: true,
     semanticTokenColors: {

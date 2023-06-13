@@ -3,13 +3,13 @@ import getTheme from './theme'
 
 fs.mkdir('./themes', { recursive: true })
   .then(() => Promise.all([
-    // fs.writeFile(
-    //   './themes/vitesse-light.json',
-    //   `${JSON.stringify(getTheme({
-    //     style: 'light',
-    //     name: 'Vitesse Light',
-    //   }), null, 2)}\n`,
-    // ),
+    fs.writeFile(
+      './themes/liquid-ray-light.json',
+      `${JSON.stringify(getTheme({
+        style: 'light',
+        name: 'Liquid Ray Light',
+      }), null, 2)}\n`,
+    ),
     fs.writeFile(
       './themes/liquid-ray-theme.json',
       `${JSON.stringify(getTheme({
