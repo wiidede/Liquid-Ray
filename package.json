@@ -3,20 +3,20 @@
   "displayName": "Liquid Ray",
   "description": "a unibody vscode theme ",
   "version": "1.0.1",
-    "icon": "icon.png",
-    "galleryBanner": {
-        "color": "#252526",
-        "theme": "dark"
-    },
-    "publisher": "wiidede",
-    "author": {
-        "name": "wiidede",
-        "url": "https://github.com/wiidede",
-        "email": "wiixdede@gmail.com"
-    },
-    "repository": {
-        "url": "https://github.com/wiidede/Liquid-Ray"
-    },
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#252526",
+    "theme": "dark"
+  },
+  "publisher": "wiidede",
+  "author": {
+    "name": "wiidede",
+    "url": "https://github.com/wiidede",
+    "email": "wiixdede@gmail.com"
+  },
+  "repository": {
+    "url": "https://github.com/wiidede/Liquid-Ray"
+  },
   "engines": {
     "vscode": "^1.71.0"
   },
@@ -43,6 +43,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^0.19.4",
     "@types/node": "^17.0.23",
+    "bumpp": "^9.1.1",
     "eslint": "^8.12.0",
     "esno": "^0.14.1",
     "nodemon": "^2.0.15",
