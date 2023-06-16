@@ -115,6 +115,8 @@ export default function getTheme({ style, name, soft = false, black = false }) {
       'list.inactiveFocusBackground': background,
       'list.focusBackground': activeBackground,
       'list.highlightForeground': primary,
+      'list.errorForeground': themeColor('red'),
+      'list.warningForeground': themeColor('orange'),
 
       'tree.indentGuidesStroke': pick({ light: primer.gray[2], dark: primer.gray[1] }),
 
@@ -196,7 +198,7 @@ export default function getTheme({ style, name, soft = false, black = false }) {
       'scrollbarSlider.background': themeColor('faded'),
       'scrollbarSlider.hoverBackground': themeColor('ignored'),
       'scrollbarSlider.activeBackground': themeColor('ignored'),
-      'editorOverviewRuler.border': primer.white,
+      'editorOverviewRuler.border': border,
 
       'panel.background': background,
       'panel.border': border,
