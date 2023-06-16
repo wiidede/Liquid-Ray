@@ -26,14 +26,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Liquid Ray Light",
-        "uiTheme": "vs",
-        "path": "./themes/liquid-ray-light.json"
-      },
-      {
         "label": "Liquid Ray",
         "uiTheme": "vs-dark",
         "path": "./themes/liquid-ray-theme.json"
+      },
+      {
+        "label": "Liquid Ray Light",
+        "uiTheme": "vs",
+        "path": "./themes/liquid-ray-light.json"
       }
     ]
   },
