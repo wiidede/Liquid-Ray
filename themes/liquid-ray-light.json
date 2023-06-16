@@ -15,7 +15,10 @@
     "textSeparator.foreground": "#dadad1",
     "button.background": "#834DF7",
     "button.foreground": "#ffffff",
-    "button.hoverBackground": "#834DF7",
+    "button.hoverBackground": "#926AE7",
+    "button.secondaryForeground": "#606060",
+    "button.secondaryBackground": "#dadad1",
+    "button.secondaryHoverBackground": "#e8e8e1",
     "checkbox.background": "#f5f5f5",
     "checkbox.border": "#dadad1",
     "dropdown.background": "#ffffff",
@@ -130,8 +133,8 @@
     "editor.selectionHighlightBackground": "#22222208",
     "editor.wordHighlightBackground": "#834DF730",
     "editor.wordHighlightStrongBackground": "#834DF730",
-    "diffEditor.insertedTextBackground": "#44D62C40",
-    "diffEditor.removedTextBackground": "#FF747740",
+    "diffEditor.insertedTextBackground": "#44D62C10",
+    "diffEditor.removedTextBackground": "#FF747710",
     "scrollbar.shadow": "#ffffff",
     "scrollbarSlider.background": "#393a3410",
     "scrollbarSlider.hoverBackground": "#393a3450",
@@ -152,7 +155,7 @@
     "terminal.ansiBrightMagenta": "#FF2BD3",
     "terminal.ansiBrightRed": "#FF7477",
     "terminal.ansiBrightWhite": "#dddddd",
-    "terminal.ansiBrightYellow": "#BDAA00",
+    "terminal.ansiBrightYellow": "#D4C100",
     "terminal.ansiBlack": "#252526",
     "terminal.ansiBlue": "#00BFFF",
     "terminal.ansiCyan": "#00B796",
@@ -160,10 +163,10 @@
     "terminal.ansiMagenta": "#FF2BD3",
     "terminal.ansiRed": "#FF7477",
     "terminal.ansiWhite": "#ACA79F",
-    "terminal.ansiYellow": "#BDAA00",
+    "terminal.ansiYellow": "#D4C100",
     "gitDecoration.addedResourceForeground": "#44D62C",
     "gitDecoration.modifiedResourceForeground": "#00BFFF",
-    "gitDecoration.stageModifiedResourceForeground": "#BDAA00",
+    "gitDecoration.stageModifiedResourceForeground": "#D4C100",
     "gitDecoration.deletedResourceForeground": "#FF7477",
     "gitDecoration.stageDeletedResourceForeground": "#FF2BD3",
     "gitDecoration.untrackedResourceForeground": "#00B796",
@@ -479,7 +482,7 @@
     {
       "scope": "string.regexp constant.character.escape",
       "settings": {
-        "foreground": "#BDAA00"
+        "foreground": "#D4C100"
       }
     },
     {
@@ -991,7 +994,7 @@
     },
     {
       "token": "string.regexp constant.character.escape",
-      "foreground": "BDAA00"
+      "foreground": "D4C100"
     },
     {
       "token": "support.constant",

@@ -54,7 +54,10 @@ export default function getTheme({ style, name, soft = false, black = false }) {
 
       'button.background': primary,
       'button.foreground': background,
-      'button.hoverBackground': primary,
+      'button.hoverBackground': primaryLight,
+      'button.secondaryForeground': foreground,
+      'button.secondaryBackground': primer.gray[3],
+      'button.secondaryHoverBackground': primer.gray[2],
 
       'checkbox.background': activeBackground,
       'checkbox.border': pick({ light: primer.gray[3], dark: primer.gray[1] }),
@@ -191,8 +194,8 @@ export default function getTheme({ style, name, soft = false, black = false }) {
       'editor.wordHighlightStrongBackground': `${primary}30`, // pick({ light: '#1c6b4810', dark: '#1c6b4810' }),
       // 'editorBracketMatch.background': pick({ light: '#1c6b4820', dark: '#4d937520' }),
 
-      'diffEditor.insertedTextBackground': `${themeColor('green')}40`, // pick({ light: '#1c6b4815', dark: '#4d937522' }),
-      'diffEditor.removedTextBackground': `${themeColor('red')}40`, // pick({ light: '#ab595910', dark: '#ab595922' }),
+      'diffEditor.insertedTextBackground': pick({ light: `${themeColor('green')}10`, dark: `${themeColor('green')}40` }),
+      'diffEditor.removedTextBackground': pick({ light: `${themeColor('red')}10`, dark: `${themeColor('red')}40` }),
 
       'scrollbar.shadow': themeColor('background'),
       'scrollbarSlider.background': themeColor('faded'),

@@ -58,7 +58,7 @@ export const ThemesColors = {
   blue: ['#009ACE', '#00BFFF'],
   red: ['#FF7276', '#FF7477'],
   orange: ['#FFAA4D', '#E87600'],
-  yellow: ['#FFE900', '#BDAA00'],
+  yellow: ['#FFE900', '#D4C100'],
   magenta: ['#EA27C2', '#FF2BD3'],
   purple: ['#775FC0', '#856ACE'],
 
