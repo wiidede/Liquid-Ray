@@ -10,4 +10,18 @@
 
 ## preview
 
+### dark
+
+> default
+
 ![preview](images/Liquid-Ray-preview.avif)
+
+### light
+
+> alpha
+
+![preview](images/Liquid-Ray-preview-light.png)
+
+## end
+
+Hope you like it!
