@@ -228,7 +228,9 @@ export default function getTheme({ style, name, soft = false, black = false }) {
 
       'gitDecoration.addedResourceForeground': themeColor('green'),
       'gitDecoration.modifiedResourceForeground': themeColor('blue'),
+      'gitDecoration.stageModifiedResourceForeground': themeColor('yellow'),
       'gitDecoration.deletedResourceForeground': themeColor('red'),
+      'gitDecoration.stageDeletedResourceForeground': themeColor('magenta'),
       'gitDecoration.untrackedResourceForeground': themeColor('cyan'),
       'gitDecoration.ignoredResourceForeground': themeColor('ignored'),
       'gitDecoration.conflictingResourceForeground': themeColor('orange'),
