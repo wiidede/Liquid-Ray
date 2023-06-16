@@ -4,6 +4,21 @@ All notable changes to the "liquid-ray" extension will be documented in this fil
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.0.2] - 2023-06-13
+
+### 🚨🚨🚨 Breaking Changes
+
+using changelogithub
+this changelog will no longer update
+changes will be recorded in [Release](https://github.com/wiidede/Liquid-Ray/releases)
+
+## [1.0.1] - 2023-03-01
+
+### Changed
+
+- command center color
+- remote control icon color
+
 ## [1.0.0] - 2022-11-18
 
 ### Changed
