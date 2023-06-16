@@ -1,15 +1,19 @@
 # Change Log
 
-All notable changes to the "liquid-ray" extension will be documented in this file.
+---
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## See newest change log in [Release](https://github.com/wiidede/Liquid-Ray/releases)
+
+---
 
 ## [1.0.2] - 2023-06-13
 
 ### 🚨🚨🚨 Breaking Changes
 
 using changelogithub
+
 this changelog will no longer update
+
 changes will be recorded in [Release](https://github.com/wiidede/Liquid-Ray/releases)
 
 ## [1.0.1] - 2023-03-01
