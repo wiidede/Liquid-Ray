@@ -1,27 +1,25 @@
-<h1 align="center">Liquid-Ray</h1>
+<h1 align="center">Liquid Ray</h1>
 
 <div align="center">
-<img alt="logo" src="icon.png">
+<img alt="logo" src="icon.png" height="64" width="64">
 </div>
 
-<h3 align="center">a unibody vscode theme</h3>
+<h3 align="center">A seamless colorful unibody vscode theme</h3>
 
-> inspire by [Vitesse Theme for VS Code](https://github.com/antfu/vscode-theme-vitesse) & PANTONE GG1504A
+> code inspire by [Vitesse Theme for VS Code](https://github.com/antfu/vscode-theme-vitesse)
+>
+> color inspire by PANTONE GG1504A
 
-## preview
+## Preview
 
-### dark
-
-> default
+### Dark
 
 ![preview](images/Liquid-Ray-preview.avif)
 
-### light
-
-> alpha
+### Light
 
 ![preview](images/Liquid-Ray-preview-light.png)
 
-## end
+## End
 
 Hope you like it!
