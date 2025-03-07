@@ -59,7 +59,7 @@
     "vscode:prepublish": "pnpm run build",
     "lint": "eslint .",
     "release": "pnpm run build && npx bumpp --commit --tag --push --all && vsce publish --no-dependencies",
-    "publish": "vsce publish --no-dependencies"
+    "vscode:publish": "vsce publish --no-dependencies"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.6.0",
