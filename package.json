@@ -14,6 +14,13 @@
     "url": "https://github.com/wiidede",
     "email": "wiixdede@gmail.com"
   },
+  "files": [
+    "LICENSE.md",
+    "icon.png",
+    "themes/*",
+    "README.md",
+    "CHANGELOG.md"
+  ],
   "keywords": [
     "seamless",
     "colorful",
