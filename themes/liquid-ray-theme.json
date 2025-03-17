@@ -69,7 +69,7 @@
     "list.focusBackground": "#202021",
     "list.highlightForeground": "#997ADB",
     "list.errorForeground": "#FF7276",
-    "list.warningForeground": "#FFAA4D",
+    "list.warningForeground": "#FF8C4D",
     "tree.indentGuidesStroke": "#3d2f2f",
     "notificationCenterHeader.foreground": "#a5a595",
     "notificationCenterHeader.background": "#252526",
@@ -77,7 +77,7 @@
     "notifications.background": "#252526",
     "notifications.border": "#252526",
     "notificationsErrorIcon.foreground": "#FF7276",
-    "notificationsWarningIcon.foreground": "#FFAA4D",
+    "notificationsWarningIcon.foreground": "#FF8C4D",
     "notificationsInfoIcon.foreground": "#009ACE",
     "pickerGroup.border": "#252526",
     "pickerGroup.foreground": "#ACA79F",
@@ -171,7 +171,7 @@
     "gitDecoration.stageDeletedResourceForeground": "#EA27C2",
     "gitDecoration.untrackedResourceForeground": "#00B796",
     "gitDecoration.ignoredResourceForeground": "#E4E2DC30",
-    "gitDecoration.conflictingResourceForeground": "#FFAA4D",
+    "gitDecoration.conflictingResourceForeground": "#FF8C4D",
     "gitDecoration.submoduleResourceForeground": "#E4E2DC80",
     "editorGutter.modifiedBackground": "#775FC0",
     "editorGutter.addedBackground": "#44D62C",
@@ -196,10 +196,10 @@
     "welcomePage.buttonBackground": "#3d2f2f",
     "welcomePage.buttonHoverBackground": "#564444",
     "problemsErrorIcon.foreground": "#FF7276",
-    "problemsWarningIcon.foreground": "#FFAA4D",
+    "problemsWarningIcon.foreground": "#FF8C4D",
     "problemsInfoIcon.foreground": "#009ACE",
     "editorError.foreground": "#FF7276",
-    "editorWarning.foreground": "#FFAA4D",
+    "editorWarning.foreground": "#FF8C4D",
     "editorInfo.foreground": "#009ACE",
     "editorHint.foreground": "#44D62C",
     "editorGutter.commentRangeForeground": "#E4E2DC30",
@@ -528,7 +528,7 @@
     {
       "scope": "punctuation.definition.list.begin.markdown",
       "settings": {
-        "foreground": "#FFAA4D"
+        "foreground": "#FF8C4D"
       }
     },
     {
@@ -1026,7 +1026,7 @@
     },
     {
       "token": "punctuation.definition.list.begin.markdown",
-      "foreground": "FFAA4D"
+      "foreground": "FF8C4D"
     },
     {
       "token": "markup.heading",
