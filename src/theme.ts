@@ -8,7 +8,9 @@ const toArray = <T>(array: T | T[]) => {
   return [array]
 }
 
-export default function getTheme({ style, name, soft = false, black = false }) {
+type PrimaryColor = 'Purple' | 'Pink' | 'Blue'
+
+export default function getTheme({ style, name, soft = false, black = false, primaryColor = 'Purple' as PrimaryColor }) {
   // Usage: `pick({ light: "lightblue", dark: "darkblue" })`
   const pick = options => options[style]
 
@@ -19,8 +21,8 @@ export default function getTheme({ style, name, soft = false, black = false }) {
   const foreground = themeColor('foreground')
   const secondaryForeground = themeColor('secondaryForeground')
   const activeForeground = themeColor('activeForeground')
-  const primary = themeColor('primary')
-  const primaryLight = themeColor('primaryLight')
+  const primary = themeColor(`primary${primaryColor}` as keyof typeof ThemesColors)
+  const primaryLight = themeColor(`primaryLight${primaryColor}` as keyof typeof ThemesColors)
 
   const border = soft ? themeColor('lowBorder') : themeColor('border')
   const background = black ? '#000' : soft ? themeColor('lowBackground') : themeColor('background')

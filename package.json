@@ -50,6 +50,16 @@
         "label": "Liquid Ray Light",
         "uiTheme": "vs",
         "path": "./themes/liquid-ray-light.json"
+      },
+      {
+        "label": "Liquid Ray Pink",
+        "uiTheme": "vs-dark",
+        "path": "./themes/liquid-ray-dark-pink.json"
+      },
+      {
+        "label": "Liquid Ray Light Pink",
+        "uiTheme": "vs",
+        "path": "./themes/liquid-ray-light-pink.json"
       }
     ]
   },

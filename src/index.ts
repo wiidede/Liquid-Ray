@@ -4,6 +4,13 @@ import getTheme from './theme'
 fs.mkdir('./themes', { recursive: true })
   .then(() => Promise.all([
     fs.writeFile(
+      './themes/liquid-ray-theme.json',
+      `${JSON.stringify(getTheme({
+        style: 'dark',
+        name: 'Liquid Ray',
+      }), null, 2)}\n`, 
+    ),
+    fs.writeFile(
       './themes/liquid-ray-light.json',
       `${JSON.stringify(getTheme({
         style: 'light',
@@ -11,10 +18,19 @@ fs.mkdir('./themes', { recursive: true })
       }), null, 2)}\n`,
     ),
     fs.writeFile(
-      './themes/liquid-ray-theme.json',
+      './themes/liquid-ray-dark-pink.json',
       `${JSON.stringify(getTheme({
         style: 'dark',
-        name: 'Liquid Ray',
+        name: 'Liquid Ray Pink',
+        primaryColor: 'Pink',
+      }), null, 2)}\n`,
+    ),
+    fs.writeFile(
+      './themes/liquid-ray-light-pink.json',
+      `${JSON.stringify(getTheme({
+        style: 'light',
+        name: 'Liquid Ray Light Pink',
+        primaryColor: 'Pink',
       }), null, 2)}\n`,
     ),
     // fs.writeFile(
