@@ -12,7 +12,7 @@
 
 ## Preview
 
-### Dark
+### Dark (Also supports pink as primary color. Default is purple)
 
 ![preview](images/Liquid-Ray-preview.avif)
 
