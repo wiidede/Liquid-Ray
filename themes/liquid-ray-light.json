@@ -213,7 +213,7 @@
   },
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "namespace": "#AB858A",
+    "namespace": "#E2A1A9",
     "property": "#38D900",
     "interface": "#815AE7",
     "type": "#815AE7",
@@ -392,7 +392,7 @@
     {
       "scope": "namespace",
       "settings": {
-        "foreground": "#AB858A"
+        "foreground": "#E2A1A9"
       }
     },
     {
@@ -926,7 +926,7 @@
     },
     {
       "token": "namespace",
-      "foreground": "AB858A"
+      "foreground": "E2A1A9"
     },
     {
       "token": "keyword.operator",
