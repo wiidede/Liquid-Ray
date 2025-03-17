@@ -15,7 +15,7 @@ export const colors = {
 export const ThemesColors = {
   primaryPurple: ['#997ADB', '#834DF7'],
   primaryLightPurple: ['#C0AEE7', '#926AE7'],
-  primaryPink: ['#F3B0B7', '#E19399'],
+  primaryPink: ['#F7D1D8', '#E19399'],
   primaryLightPink: ['#F9E0E2', '#EF879E'],
 
   foreground: ['#ACA79F', '#606060'],
@@ -49,7 +49,7 @@ export const ThemesColors = {
   type: ['#53CFBA', '#1A9984'],
   builtin: ['#19C2A9', '#00C9AB'],
   property: ['#BDF4AA', '#38D900'],
-  namespace: ['#FFC7CE', '#AB858A'],
+  namespace: ['#FFC7CE', '#E2A1A9'],
   punctuation: ['#C4D5C6', '#6BB373'],
   decorator: ['#F3B198', '#A84E2C'],
   regex: ['#BA93DF', '#BA93DF'],

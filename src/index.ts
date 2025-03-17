@@ -8,7 +8,7 @@ fs.mkdir('./themes', { recursive: true })
       `${JSON.stringify(getTheme({
         style: 'dark',
         name: 'Liquid Ray',
-      }), null, 2)}\n`, 
+      }), null, 2)}\n`,
     ),
     fs.writeFile(
       './themes/liquid-ray-light.json',
