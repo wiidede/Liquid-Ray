@@ -34,6 +34,15 @@ fs.mkdir('./themes', { recursive: true })
         primaryColor: 'Pink',
       }), null, 2)}\n`,
     ),
+    fs.writeFile(
+      './themes/liquid-ray-soft-pink.json',
+      `${JSON.stringify(getTheme({
+        style: 'light',
+        name: 'Liquid Ray Soft Pink',
+        soft: true,
+        primaryColor: 'Pink',
+      }), null, 2)}\n`,
+    ),
     // fs.writeFile(
     //   './themes/vitesse-black.json',
     //   `${JSON.stringify(getTheme({

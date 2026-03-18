@@ -60,6 +60,11 @@
         "label": "Liquid Ray Light Pink",
         "uiTheme": "vs",
         "path": "./themes/liquid-ray-light-pink.json"
+      },
+      {
+        "label": "Liquid Ray Soft Pink  ",
+        "uiTheme": "vs",
+        "path": "./themes/liquid-ray-soft-pink.json"
       }
     ]
   },
