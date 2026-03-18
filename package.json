@@ -2,7 +2,7 @@
   "publisher": "wiidede",
   "name": "liquid-ray",
   "displayName": "Liquid Ray",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "packageManager": "pnpm@10.32.1",
   "description": "A seamless colorful unibody vscode theme inspired by Pantone GG1504A",
   "galleryBanner": {
