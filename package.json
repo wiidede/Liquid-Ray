@@ -1,26 +1,21 @@
 {
+  "publisher": "wiidede",
   "name": "liquid-ray",
   "displayName": "Liquid Ray",
-  "description": "A seamless colorful unibody vscode theme inspired by Pantone GG1504A",
   "version": "1.2.2",
-  "icon": "icon.png",
+  "description": "A seamless colorful unibody vscode theme inspired by Pantone GG1504A",
   "galleryBanner": {
     "color": "#252526",
     "theme": "dark"
   },
-  "publisher": "wiidede",
   "author": {
     "name": "wiidede",
     "url": "https://github.com/wiidede",
     "email": "wiixdede@gmail.com"
   },
-  "files": [
-    "LICENSE",
-    "icon.png",
-    "themes/*",
-    "README.md",
-    "CHANGELOG.md"
-  ],
+  "repository": {
+    "url": "https://github.com/wiidede/Liquid-Ray"
+  },
   "keywords": [
     "seamless",
     "colorful",
@@ -30,15 +25,20 @@
     "light",
     "dark"
   ],
-  "repository": {
-    "url": "https://github.com/wiidede/Liquid-Ray"
-  },
-  "engines": {
-    "vscode": "^1.71.0"
-  },
   "categories": [
     "Themes"
   ],
+  "icon": "icon.png",
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "icon.png",
+    "themes/*"
+  ],
+  "engines": {
+    "vscode": "^1.71.0"
+  },
   "contributes": {
     "themes": [
       {
@@ -64,22 +64,22 @@
     ]
   },
   "scripts": {
-    "build": "esno src/index.ts",
-    "dev": "nodemon --watch src -e ts --exec \"esno src/index.ts\"",
+    "build": "tsx src/index.ts",
+    "dev": "nodemon --watch src -e ts --exec \"tsx src/index.ts\"",
     "vscode:prepublish": "pnpm run build",
     "lint": "eslint .",
     "release": "pnpm run build && npx bumpp --commit --tag --push --all && vsce publish --no-dependencies",
     "vscode:publish": "vsce publish --no-dependencies"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.6.0",
-    "@types/node": "^22.13.9",
-    "@vscode/vsce": "^3.2.2",
-    "bumpp": "^10.0.3",
-    "eslint": "^9.21.0",
-    "esno": "^4.8.0",
-    "nodemon": "^3.1.9",
-    "tsup": "^8.4.0",
-    "typescript": "^5.8.2"
+    "@antfu/eslint-config": "^7.7.3",
+    "@types/node": "^25.5.0",
+    "@vscode/vsce": "^3.7.1",
+    "bumpp": "^11.0.1",
+    "eslint": "^10.0.3",
+    "nodemon": "^3.1.14",
+    "tsup": "^8.5.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
   }
 }

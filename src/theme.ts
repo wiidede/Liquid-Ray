@@ -1,7 +1,7 @@
-import { getColors } from './primer'
 import { ThemesColors } from './colors'
+import { getColors } from './primer'
 
-const toArray = <T>(array: T | T[]) => {
+function toArray<T>(array: T | T[]) {
   array = array || []
   if (Array.isArray(array))
     return array
