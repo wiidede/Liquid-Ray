@@ -4,6 +4,7 @@
   "displayName": "Liquid Ray",
   "version": "1.3.0",
   "description": "A seamless colorful unibody vscode theme inspired by Pantone GG1504A",
+  "license": "MIT",
   "galleryBanner": {
     "color": "#252526",
     "theme": "dark"
@@ -70,11 +71,11 @@
   },
   "scripts": {
     "build": "tsx src/index.ts",
-    "dev": "nodemon --watch src -e ts --exec \"tsx src/index.ts\"",
+    "dev": "tsx watch scripts/index.ts",
     "vscode:prepublish": "pnpm run build",
     "lint": "eslint .",
-    "release": "pnpm run build && npx bumpp --commit --tag --push --all && vsce publish --no-dependencies",
-    "vscode:publish": "vsce publish --no-dependencies"
+    "release": "bumpp --all",
+    "package": "vsce package --no-dependencies"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^7.7.3",
