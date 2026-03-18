@@ -3,6 +3,7 @@
   "name": "liquid-ray",
   "displayName": "Liquid Ray",
   "version": "1.4.0",
+  "packageManager": "pnpm@10.32.1",
   "description": "A seamless colorful unibody vscode theme inspired by Pantone GG1504A",
   "license": "MIT",
   "galleryBanner": {
@@ -84,6 +85,7 @@
     "bumpp": "^11.0.1",
     "eslint": "^10.0.3",
     "nodemon": "^3.1.14",
+    "pnpm": "^10.32.1",
     "tsup": "^8.5.1",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
