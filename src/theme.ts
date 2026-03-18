@@ -10,9 +10,21 @@ function toArray<T>(array: T | T[]) {
 
 type PrimaryColor = 'Purple' | 'Pink' | 'Blue'
 
-export default function getTheme({ style, name, soft = false, black = false, primaryColor = 'Purple' as PrimaryColor }) {
+export default function getTheme({
+  style,
+  name,
+  soft = false,
+  black = false,
+  primaryColor = 'Purple',
+}: {
+  style: 'light' | 'dark'
+  name: string
+  soft?: boolean
+  black?: boolean
+  primaryColor?: PrimaryColor
+}) {
   // Usage: `pick({ light: "lightblue", dark: "darkblue" })`
-  const pick = options => options[style]
+  const pick = <T>(options: Record<string, T>) => options[style]
 
   const themeColor = (key: keyof typeof ThemesColors, op = '') => pick({ light: ThemesColors[key][1] + op, dark: ThemesColors[key][0] + op })
 
@@ -26,10 +38,10 @@ export default function getTheme({ style, name, soft = false, black = false, pri
 
   const border = soft ? themeColor('lowBorder') : themeColor('border')
   const background = black ? '#000' : soft ? themeColor('lowBackground') : themeColor('background')
-  const hoverBackground = black ? '#090909' : soft ? themeColor('hoverBackground') : themeColor('hoverBackground')
+  const hoverBackground = black ? '#090909' : soft ? themeColor('lowHoverBackground') : themeColor('hoverBackground')
   const activeBackground = black ? '#050505' : soft ? themeColor('lowActiveBackground') : themeColor('activeBackground')
-  const focusBackground = black ? '#010101' : soft ? themeColor('focusBackground') : themeColor('focusBackground')
-  const deepBackground = black ? '#000000' : soft ? themeColor('deepBackground') : themeColor('deepBackground')
+  const focusBackground = black ? '#010101' : soft ? themeColor('lowFocusBackground') : themeColor('focusBackground')
+  const deepBackground = black ? '#000000' : soft ? themeColor('lowDeepBackground') : themeColor('deepBackground')
 
   const selectionBackgroundInActive = pick({ light: '#22222208', dark: '#eeeeee08' })
   const selectionBackgroundActive = pick({ light: '#22222215', dark: '#eeeeee15' })
@@ -122,6 +134,7 @@ export default function getTheme({ style, name, soft = false, black = false, pri
       'list.highlightForeground': primary,
       'list.errorForeground': themeColor('red'),
       'list.warningForeground': themeColor('orange'),
+      'list.focusOutline': border,
 
       'tree.indentGuidesStroke': pick({ light: primer.gray[2], dark: primer.gray[1] }),
 
@@ -762,7 +775,7 @@ export default function getTheme({ style, name, soft = false, black = false, pri
         },
       },
     ],
-    rules: [],
+    rules: [] as any[],
   }
 
   // monaco rules
