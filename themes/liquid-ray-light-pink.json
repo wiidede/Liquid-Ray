@@ -70,6 +70,7 @@
     "list.highlightForeground": "#FF9DAE",
     "list.errorForeground": "#FF7477",
     "list.warningForeground": "#FF7326",
+    "list.focusOutline": "#ffffff",
     "tree.indentGuidesStroke": "#e8e8e1",
     "notificationCenterHeader.foreground": "#7d7d6a",
     "notificationCenterHeader.background": "#ffffff",
