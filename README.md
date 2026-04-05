@@ -20,6 +20,10 @@
 
 ![preview](images/Liquid-Ray-preview-light.png)
 
+### soft & softer
+
+![preview](images/Liquid-Ray-preview-soft.avif)
+
 ## End
 
 Hope you like it!
