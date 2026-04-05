@@ -34,9 +34,16 @@ export const ThemesColors = {
   lowBackground: ['#222', '#FDFBF2'],
   lowHoverBackground: ['#29292A', '#faf6e1'],
   lowActiveBackground: ['#292929', '#f8f1d0'],
-  lowFocusBackground: ['#19191A', '#f5ebbf'],
+  lowFocusBackground: ['#19191A', '#FFFEF8'],
   lowDeepBackground: ['#101011', '#f3e6ae'],
   lowBorder: ['#252525', '#FDFBF2'],
+
+  lowerBackground: ['#222', '#faf6e1'],
+  lowerHoverBackground: ['#29292A', '#f8f1d0'],
+  lowerActiveBackground: ['#292929', '#f5ebbf'],
+  lowerFocusBackground: ['#19191A', '#FDFBF2'],
+  lowerDeepBackground: ['#101011', '#f3e6ae'],
+  lowerBorder: ['#252525', '#faf6e1'],
 
   comment: ['#9D9994', '#BDB4AA'],
   string: ['#F1F0B0', '#FF9E03'],

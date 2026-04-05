@@ -14,12 +14,14 @@ export default function getTheme({
   style,
   name,
   soft = false,
+  softer = false,
   black = false,
   primaryColor = 'Purple',
 }: {
   style: 'light' | 'dark'
   name: string
   soft?: boolean
+  softer?: boolean
   black?: boolean
   primaryColor?: PrimaryColor
 }) {
@@ -36,12 +38,19 @@ export default function getTheme({
   const primary = themeColor(`primary${primaryColor}` as keyof typeof ThemesColors)
   const primaryLight = themeColor(`primaryLight${primaryColor}` as keyof typeof ThemesColors)
 
-  const border = soft ? themeColor('lowBorder') : themeColor('border')
-  const background = black ? '#000' : soft ? themeColor('lowBackground') : themeColor('background')
-  const hoverBackground = black ? '#090909' : soft ? themeColor('lowHoverBackground') : themeColor('hoverBackground')
-  const activeBackground = black ? '#050505' : soft ? themeColor('lowActiveBackground') : themeColor('activeBackground')
-  const focusBackground = black ? '#010101' : soft ? themeColor('lowFocusBackground') : themeColor('focusBackground')
-  const deepBackground = black ? '#000000' : soft ? themeColor('lowDeepBackground') : themeColor('deepBackground')
+  const softBorder = softer ? themeColor('lowerBorder') : themeColor('lowerBorder')
+  const softBackground = softer ? themeColor('lowerBackground') : themeColor('lowBackground')
+  const softHoverBackground = softer ? themeColor('lowerHoverBackground') : themeColor('lowHoverBackground')
+  const softActiveBackground = softer ? themeColor('lowerActiveBackground') : themeColor('lowActiveBackground')
+  const softFocusBackground = softer ? themeColor('lowerFocusBackground') : themeColor('lowFocusBackground')
+  const softDeepBackground = softer ? themeColor('lowerDeepBackground') : themeColor('lowDeepBackground')
+
+  const border = soft ? softBorder : themeColor('border')
+  const background = black ? '#000' : soft ? softBackground : themeColor('background')
+  const hoverBackground = black ? '#090909' : soft ? softHoverBackground : themeColor('hoverBackground')
+  const activeBackground = black ? '#050505' : soft ? softActiveBackground : themeColor('activeBackground')
+  const focusBackground = black ? '#010101' : soft ? softFocusBackground : themeColor('focusBackground')
+  const deepBackground = black ? '#000000' : soft ? softDeepBackground : themeColor('deepBackground')
 
   const selectionBackgroundInActive = pick({ light: '#22222208', dark: '#eeeeee08' })
   const selectionBackgroundActive = pick({ light: '#22222215', dark: '#eeeeee15' })
