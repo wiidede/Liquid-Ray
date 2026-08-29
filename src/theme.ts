@@ -75,6 +75,7 @@ export default function getTheme({
       'surface.border': border,
       'editor.border': border,
       'agentsPanel.border': border,
+      'agentsNewSessionButton.border': border,
 
       foreground,
       'descriptionForeground': secondaryForeground,

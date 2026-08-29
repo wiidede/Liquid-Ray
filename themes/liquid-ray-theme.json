@@ -8,6 +8,7 @@
     "surface.border": "#252526",
     "editor.border": "#252526",
     "agentsPanel.border": "#252526",
+    "agentsNewSessionButton.border": "#252526",
     "foreground": "#ACA79F",
     "descriptionForeground": "#E4E2DC80",
     "errorForeground": "#FF7276",
