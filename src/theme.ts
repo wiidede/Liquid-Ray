@@ -52,6 +52,9 @@ export default function getTheme({
   const focusBackground = black ? '#010101' : soft ? softFocusBackground : themeColor('focusBackground')
   const deepBackground = black ? '#000000' : soft ? softDeepBackground : themeColor('deepBackground')
 
+  const stickyScrollBackground = pick({ light: hoverBackground, dark: activeBackground })
+  const stickyScrollHoverBackground = pick({ light: activeBackground, dark: hoverBackground })
+
   const selectionBackgroundInActive = pick({ light: '#22222208', dark: '#eeeeee08' })
   const selectionBackgroundActive = pick({ light: '#22222215', dark: '#eeeeee15' })
   const selectionBackground = pick({ light: '#22222215', dark: '#eeeeee15' })
@@ -338,8 +341,23 @@ export default function getTheme({
       'statusBarItem.remoteBackground': background,
       'statusBarItem.remoteForeground': activeForeground,
 
-      'editorStickyScroll.background': pick({ light: hoverBackground, dark: activeBackground }),
-      'editorStickyScrollHover.background': pick({ light: activeBackground, dark: hoverBackground }),
+      'editorStickyScroll.background': stickyScrollBackground,
+      'editorStickyScrollGutter.background': stickyScrollBackground,
+      'editorStickyScrollHover.background': stickyScrollHoverBackground,
+      'editorStickyScroll.border': border,
+      'editorStickyScroll.shadow': border,
+
+      'sideBarStickyScroll.background': stickyScrollBackground,
+      'sideBarStickyScroll.border': border,
+      'sideBarStickyScroll.shadow': border,
+
+      'panelStickyScroll.background': stickyScrollBackground,
+      'panelStickyScroll.border': border,
+      'panelStickyScroll.shadow': border,
+
+      'terminalStickyScroll.background': stickyScrollBackground,
+      'terminalStickyScrollHover.background': stickyScrollHoverBackground,
+      'terminalStickyScroll.border': border,
     },
     semanticHighlighting: true,
     semanticTokenColors: {

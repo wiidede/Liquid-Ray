@@ -235,7 +235,19 @@
     "statusBarItem.remoteBackground": "#FDFBF2",
     "statusBarItem.remoteForeground": "#707070",
     "editorStickyScroll.background": "#faf6e1",
-    "editorStickyScrollHover.background": "#f8f1d0"
+    "editorStickyScrollGutter.background": "#faf6e1",
+    "editorStickyScrollHover.background": "#f8f1d0",
+    "editorStickyScroll.border": "#faf6e1",
+    "editorStickyScroll.shadow": "#faf6e1",
+    "sideBarStickyScroll.background": "#faf6e1",
+    "sideBarStickyScroll.border": "#faf6e1",
+    "sideBarStickyScroll.shadow": "#faf6e1",
+    "panelStickyScroll.background": "#faf6e1",
+    "panelStickyScroll.border": "#faf6e1",
+    "panelStickyScroll.shadow": "#faf6e1",
+    "terminalStickyScroll.background": "#faf6e1",
+    "terminalStickyScrollHover.background": "#f8f1d0",
+    "terminalStickyScroll.border": "#faf6e1"
   },
   "semanticHighlighting": true,
   "semanticTokenColors": {
