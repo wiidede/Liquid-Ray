@@ -38,7 +38,7 @@ export default function getTheme({
   const primary = themeColor(`primary${primaryColor}` as keyof typeof ThemesColors)
   const primaryLight = themeColor(`primaryLight${primaryColor}` as keyof typeof ThemesColors)
 
-  const softBorder = softer ? themeColor('lowerBorder') : themeColor('lowerBorder')
+  const softBorder = softer ? themeColor('lowerBorder') : themeColor('lowBorder')
   const softBackground = softer ? themeColor('lowerBackground') : themeColor('lowBackground')
   const softHoverBackground = softer ? themeColor('lowerHoverBackground') : themeColor('lowHoverBackground')
   const softActiveBackground = softer ? themeColor('lowerActiveBackground') : themeColor('lowActiveBackground')
