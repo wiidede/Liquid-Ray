@@ -65,7 +65,9 @@ export default function getTheme({
     name,
     base: pick({ light: 'vs', dark: 'vs-dark' }),
     colors: {
-      'focusBorder': themeColor('border'),
+      // VS Code's Copilot quota indicator uses focusBorder for its fill.
+      // Keep it visible on light surfaces instead of blending into border.
+      'focusBorder': primary,
 
       // Modern UI surfaces and cards
       'surface.background': background,

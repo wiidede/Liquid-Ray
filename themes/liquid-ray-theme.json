@@ -2,7 +2,7 @@
   "name": "Liquid Ray",
   "base": "vs-dark",
   "colors": {
-    "focusBorder": "#252526",
+    "focusBorder": "#997ADB",
     "surface.background": "#252526",
     "surface.foreground": "#ACA79F",
     "surface.border": "#252526",

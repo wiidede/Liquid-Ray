@@ -2,7 +2,7 @@
   "name": "Liquid Ray Light",
   "base": "vs",
   "colors": {
-    "focusBorder": "#ffffff",
+    "focusBorder": "#834DF7",
     "surface.background": "#ffffff",
     "surface.foreground": "#606060",
     "surface.border": "#ffffff",

@@ -2,7 +2,7 @@
   "name": "Liquid Ray Pink",
   "base": "vs-dark",
   "colors": {
-    "focusBorder": "#252526",
+    "focusBorder": "#FFB1BE",
     "surface.background": "#252526",
     "surface.foreground": "#ACA79F",
     "surface.border": "#252526",

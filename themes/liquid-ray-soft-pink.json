@@ -2,7 +2,7 @@
   "name": "Liquid Ray Soft Pink",
   "base": "vs",
   "colors": {
-    "focusBorder": "#ffffff",
+    "focusBorder": "#FF9DAE",
     "surface.background": "#FDFBF2",
     "surface.foreground": "#606060",
     "surface.border": "#FDFBF2",
