@@ -63,6 +63,13 @@ export default function getTheme({
     base: pick({ light: 'vs', dark: 'vs-dark' }),
     colors: {
       'focusBorder': themeColor('border'),
+
+      // Modern UI surfaces and cards
+      'surface.background': background,
+      'surface.foreground': foreground,
+      'surface.border': border,
+      'editor.border': border,
+
       foreground,
       'descriptionForeground': secondaryForeground,
       'errorForeground': themeColor('red'),
@@ -114,6 +121,13 @@ export default function getTheme({
       'activityBarBadge.background': foreground,
       'activityBar.activeBorder': border,
       'activityBar.border': border,
+      'modernActivityBar.background': background,
+      'modernActivityBar.inactiveBackground': background,
+      'modernActivityBar.border': border,
+      'modernActivityBarItem.activeBackground': activeBackground,
+      'modernActivityBarItem.activeForeground': primary,
+      'modernActivityBarItem.hoverBackground': hoverBackground,
+      'modernActivityBarItem.hoverForeground': activeForeground,
 
       'sideBar.foreground': foreground,
       'sideBar.background': background,
@@ -185,6 +199,22 @@ export default function getTheme({
       'tab.unfocusedActiveBorderTop': border,
       'tab.activeBorder': border,
       'tab.unfocusedActiveBorder': border,
+
+      // Modern UI tabs
+      'modernTab.activeBackground': activeBackground,
+      'modernTab.activeForeground': primary,
+      'modernTab.hoverBackground': hoverBackground,
+      'modernTab.hoverForeground': activeForeground,
+      'modernEditorTab.activeBackground': activeBackground,
+      'modernEditorTab.activeActionBackground': activeBackground,
+      'modernEditorTab.activeForeground': primary,
+      'modernEditorTab.activeHoverBackground': hoverBackground,
+      'modernEditorTab.activeHoverActionBackground': hoverBackground,
+      'modernEditorTab.inactiveBackground': background,
+      'modernEditorTab.hoverBackground': hoverBackground,
+      'modernEditorTab.hoverActionBackground': hoverBackground,
+      'modernEditorTab.hoverForeground': activeForeground,
+      'modernEditorTab.selectedActionBackground': activeBackground,
 
       'breadcrumb.foreground': primer.gray[5],
       'breadcrumb.focusForeground': foreground,
